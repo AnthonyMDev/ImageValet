@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "ImageValet"
   s.version          = "1.0.0"
-  s.summary          = "An image component for using `UIImageView` with a variety of local and remote image sources. ImageValet uses AlamofireImage for asynchronous image requests."
+  s.summary          = "Delivers an image from a variety of local and remote image sources to a `UIImageView` using AlamofireImage for asynchronous requests."
 
   s.homepage         = "https://github.com/AnthonyMDev/ImageValet"
   s.license          = 'MIT'
