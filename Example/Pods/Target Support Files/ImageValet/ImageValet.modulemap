@@ -1,0 +1,6 @@
+framework module ImageValet {
+  umbrella header "ImageValet-umbrella.h"
+
+  export *
+  module * { export * }
+}
