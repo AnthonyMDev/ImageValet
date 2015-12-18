@@ -27,7 +27,7 @@ public class ImageValet {
       - request:      The `NSURLRequest` to access the image.
       - placeholder:  An optional `UIImage` to use a placeholder while the image from the `request` is retrieved.
    */
-  public enum ImageSource {
+  public enum ImageSource: Equatable {
     
     case InMemory(image: UIImage),
     URL(NSURL, placeholder: UIImage?),
@@ -129,4 +129,22 @@ extension UIImageView {
     imageValet.deliverToImageView(self)
   }
   
+}
+
+// MARK: - ImageValet.ImageSource Equatable
+public func ==(lhs: ImageValet.ImageSource, rhs: ImageValet.ImageSource) -> Bool {
+  switch (lhs, rhs) {
+  case (.InMemory(let lhsImage), .InMemory(let rhsImage)):
+    return lhsImage == rhsImage
+    
+  case (.URL(let lhsURL, let lhsPlaceholder), .URL(let rhsURL, let rhsPlaceholder)):
+    return lhsURL == rhsURL
+    && lhsPlaceholder == rhsPlaceholder
+    
+  case (.URLRequest(let lhsRequest, let lhsPlaceholder), .URLRequest(let rhsRequest, let rhsPlaceholder)):
+    return lhsRequest == rhsRequest
+      && lhsPlaceholder == rhsPlaceholder
+    
+  default: return false
+  }
 }
