@@ -11,7 +11,7 @@ import Alamofire
 import AlamofireImage
 
 /// `ImageValet` provides delivery of an image from a local or remote source to a `UIImageView`.
-public class ImageValet {
+public class ImageValet: Equatable {
   
   /**
    The source of an image for an `ImageValet`.
@@ -131,7 +131,13 @@ extension UIImageView {
   
 }
 
-// MARK: - ImageValet.ImageSource Equatable
+// MARK: - Equatable
+
+public func ==(lhs: ImageValet, rhs: ImageValet) -> Bool {
+  return lhs.source == rhs.source &&
+  lhs.image == rhs.image
+}
+
 public func ==(lhs: ImageValet.ImageSource, rhs: ImageValet.ImageSource) -> Bool {
   switch (lhs, rhs) {
   case (.InMemory(let lhsImage), .InMemory(let rhsImage)):
