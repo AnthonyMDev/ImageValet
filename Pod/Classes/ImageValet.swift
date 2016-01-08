@@ -41,9 +41,6 @@ public class ImageValet: Equatable {
   /// The image that the valet manages. If the image has not been retrieved yet, this will be `nil`.
   public private(set) var image: UIImage?
   
-  /// A closure that will be called each time the valet's `image` is set to a `UIImageView`.
-  public var didDeliverImage: ((UIImage, toImageView: UIImageView) -> Void)?
-  
   /*
   *  MARK: Initialization
   */
@@ -67,28 +64,43 @@ public class ImageValet: Equatable {
   }
   
   /*
-  *  MARK: Deliver To Image View
+  *  MARK: - Deliver Image
   */
   
   /**
-  Delivers (sets) the image for the valet on the given `UIImageView`. If the image must be retrieved, the image is retrieved asychronously and then set to the image view.
+  Delivers the image for the valet to the given completion block. If the image must be retrieved, it is retrieved asychronously before the completion block is called.
+  
+  - parameter completion: The completion block to deliver the valet's `image` to.
+  */
+  public func deliver(completion: (Result<UIImage, NSError>) -> Void) {
+    switch source {
+    case .InMemory(let image):
+      completion(.Success(image))
+      
+    case .URL(let URL, _):
+      downloadImageWithRequest(NSURLRequest(URL: URL), completion: completion)
+      
+    case .URLRequest(let URLRequest, _):
+      downloadImageWithRequest(URLRequest, completion: completion)
+    }
+  }
+  
+  private func downloadImageWithRequest(URLRequest: NSURLRequest, completion: (Result<UIImage, NSError> -> Void)) {
+    ImageDownloader.defaultInstance.downloadImage(URLRequest: URLRequest,
+      completion: { (response) -> Void in
+        completion(response.result)
+    })
+  }
+  
+  /**
+  Delivers (sets) the image for the valet on the given `UIImageView`. If the image must be retrieved, it is retrieved asychronously and then set to the image view.
   
   - parameter imageView: The image view to deliver the valet's `image` to.
   */
   public func deliverToImageView(imageView: UIImageView) {
-    func deliverImage(image: UIImage) {
-      imageView.image = image
-      didDeliverImage?(image, toImageView: imageView)
-    }
-    
-    if let image = image {
-      deliverImage(image)
-      return
-    }
-    
     switch source {
     case .InMemory(let image):
-      deliverImage(image)
+      imageView.image = image
       
     case .URL(let URL,let placeholder):
       deliverImageToImageView(imageView,
@@ -110,7 +122,6 @@ public class ImageValet: Equatable {
       completion: { [weak self] (response) -> Void in
         if let image = response.result.value {
           self?.image = image
-          self?.didDeliverImage?(image, toImageView: imageView)
         }
       })
   }

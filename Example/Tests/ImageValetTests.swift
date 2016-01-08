@@ -43,24 +43,17 @@ class InMemoryImageValetTests: ImageValetTests {
     expect(imageView.image).to(beIdenticalTo(image))
   }
   
-  func test__deliverToImageView__callsDidDeliverImage() {
+  func test__deliver__callsCompletion() {
     // given
-    let imageView = UIImageView()
-    
     var imageDelivered: UIImage?
-    var imageViewDeliveredTo: UIImageView?
-    
-    sut.didDeliverImage = { (image, imageView) -> Void in
-      imageDelivered = image
-      imageViewDeliveredTo = imageView
-    }
     
     // when
-    sut.deliverToImageView(imageView)
+    sut.deliver { result in
+      imageDelivered = result.value
+    }
     
     // then
     expect(imageDelivered).to(beIdenticalTo(image))
-    expect(imageViewDeliveredTo).to(beIdenticalTo(imageView))
   }
   
   func test__image__returnsSourceImage() {

@@ -12,16 +12,22 @@ let placeholderImage = UIImage()
 
 let valet = ImageValet(source: .URL(myImageURL, placeholder: placeholderImage)
 
-valet.didDeliverImage = { (image, imageView) -> Void in 
-  // Do something when an image is delivered
-}
-
 let UIImageView = UIImageView()
 
 valet.deliverToImageView(imageView)
 // or
 imageView.iv_deliverImage(valet)
 
+```
+
+`ImageValet` can also deliver an image asynchronously using a closure. 
+
+```
+let valet = ImageValet(source: .URL(myImageURL, placeholder: placeholderImage)
+
+valet.deliver { result in
+  // Do something when the image is delivered
+}
 ```
 
 ## Requirements
