@@ -17,7 +17,6 @@ class ImageValetTests: XCTestCase {
     
     image = UIImage()
   }
-  
 
 }
 

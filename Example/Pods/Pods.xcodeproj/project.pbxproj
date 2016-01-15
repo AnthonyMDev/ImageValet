@@ -494,12 +494,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		88503C12F7D8ECFCF41EA99EEF351628 /* Classes */ = {
+		88503C12F7D8ECFCF41EA99EEF351628 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				123B363ED337437AB7BE45D4D813886E /* ImageValet.swift */,
 			);
-			path = Classes;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		89938006CDA3EE997C0A34F2A085737C /* Development Pods */ = {
@@ -554,7 +554,7 @@
 		C81404316A5DF380C2F969E4ECFC699B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				88503C12F7D8ECFCF41EA99EEF351628 /* Classes */,
+				88503C12F7D8ECFCF41EA99EEF351628 /* Source */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
