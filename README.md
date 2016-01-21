@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/ImageValet.svg?style=flat)](http://cocoapods.org/pods/ImageValet)
 [![Platform](https://img.shields.io/cocoapods/p/ImageValet.svg?style=flat)](http://cocoapods.org/pods/ImageValet)
 
+ImageValet allows you to lazy load a `UIImage` from anywhere!
+
 ## Usage
 
 ```
