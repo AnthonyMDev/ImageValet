@@ -180,14 +180,14 @@ public class ImageValet: Equatable {
 }
 
 // MARK: - UIImageView+ImageValet
-extension UIImageView {
+public extension UIImageView {
   
   /**
    Delivers the image from the given `ImageValet` to the image view.
    
    - parameter imageValet: The `ImageValet` to deliver it's `image`.
    */
-  func iv_deliverImage(imageValet: ImageValet) {
+  public func iv_deliverImage(imageValet: ImageValet) {
     imageValet.deliverToImageView(self)
   }
   
