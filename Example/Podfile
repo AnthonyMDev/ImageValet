@@ -3,12 +3,16 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 inhibit_all_warnings!
 
-target 'ImageValet_Example', :exclusive => true do
+abstract_target 'import_pods' do
   pod "ImageValet", :path => "../"
-end
+  pod "Alamofire", :git => 'https://github.com/Alamofire/Alamofire', :tag => '4.0.0-beta.1'
+  pod "AlamofireImage", :git => 'https://github.com/Alamofire/AlamofireImage', :branch => 'swift3'
 
-target 'ImageValet_Tests', :exclusive => true do
-  pod "ImageValet", :path => "../"
-  
-  pod "Nimble"  
+  target 'ImageValet_Example' do
+
+  end
+
+  target 'ImageValet_Tests' do
+    pod "Nimble", :git => 'https://github.com/Quick/Nimble', :branch => 'swift-3.0'
+  end
 end
