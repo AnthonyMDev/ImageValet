@@ -66,7 +66,7 @@ class InMemoryImageValetTests: ImageValetTests {
 */
 class URLImageValetTests: ImageValetTests {
   
-  let URL = NSURL(string: "http://www.example.com")!
+  let URL = Foundation.URL(string: "http://www.example.com")!
   
   override func setUp() {
     super.setUp()
@@ -81,7 +81,7 @@ class URLImageValetTests: ImageValetTests {
 */
 class URLRequestImageValetTests: ImageValetTests {
   
-  let request = NSURLRequest(URL: NSURL(string: "http://www.example.com")!)
+  let request = URLRequest(url: URL(string: "http://www.example.com")!)
   
   override func setUp() {
     super.setUp()

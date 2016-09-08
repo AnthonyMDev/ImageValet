@@ -5,8 +5,8 @@ inhibit_all_warnings!
 
 abstract_target 'import_pods' do
   pod "ImageValet", :path => "../"
-  pod "Alamofire", :git => 'https://github.com/Alamofire/Alamofire', :tag => '4.0.0-beta.1'
-  pod "AlamofireImage", :git => 'https://github.com/Alamofire/AlamofireImage', :branch => 'swift3'
+  pod "Alamofire", :path => "../../Alamofire"
+  pod "AlamofireImage", :path => "../../AlamofireImage"
 
   target 'ImageValet_Example' do
 
