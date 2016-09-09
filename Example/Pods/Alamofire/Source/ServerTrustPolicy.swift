@@ -235,6 +235,7 @@ public enum ServerTrustPolicy {
             let unspecified = SecTrustResultType.unspecified
             let proceed = SecTrustResultType.proceed
 
+
             isValid = result == unspecified || result == proceed
         }
 
