@@ -9,11 +9,14 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - AlamofireImage
+  - AlamofireImage (from `https://github.com/Alamofire/AlamofireImage`, branch `master`)
   - ImageValet (from `../`)
   - Nimble (from `https://github.com/Quick/Nimble`, branch `swift-3.0`)
 
 EXTERNAL SOURCES:
+  AlamofireImage:
+    :branch: master
+    :git: https://github.com/Alamofire/AlamofireImage
   ImageValet:
     :path: "../"
   Nimble:
@@ -21,6 +24,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/Quick/Nimble
 
 CHECKOUT OPTIONS:
+  AlamofireImage:
+    :commit: 22e3c24fbe22a8017321060f949fa7b03091dad6
+    :git: https://github.com/Alamofire/AlamofireImage
   Nimble:
     :commit: 9dc342cdffef660414d17f27aec897d0cacfffea
     :git: https://github.com/Quick/Nimble
@@ -31,6 +37,6 @@ SPEC CHECKSUMS:
   ImageValet: 06bee1aecd3bc8547b7a2f76d8ed1cdcfb944128
   Nimble: c5b995b4cd57789ec44b0cfb79640fc00e61a8c7
 
-PODFILE CHECKSUM: 581f50fcf8482fa2cff2d0650bc0d7b9fe26336e
+PODFILE CHECKSUM: 538e9959ff7b107d024d435189d286349240737b
 
 COCOAPODS: 1.0.1
