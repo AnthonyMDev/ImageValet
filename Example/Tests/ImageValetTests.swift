@@ -28,7 +28,7 @@ class InMemoryImageValetTests: ImageValetTests {
   override func setUp() {
     super.setUp()
     
-    sut = ImageValet(source:.InMemory(image: image))
+    sut = ImageValet(source:.inMemory(image: image))
   }
   
   func test__deliverToImageView__setsImageViewImage() {
@@ -66,12 +66,12 @@ class InMemoryImageValetTests: ImageValetTests {
 */
 class URLImageValetTests: ImageValetTests {
   
-  let URL = NSURL(string: "http://www.example.com")!
+  let URL = Foundation.URL(string: "http://www.example.com")!
   
   override func setUp() {
     super.setUp()
     
-    sut = ImageValet(source:.URL(URL, placeholder: nil))
+    sut = ImageValet(source:.url(URL, placeholder: nil))
   }
   
 }
@@ -81,12 +81,12 @@ class URLImageValetTests: ImageValetTests {
 */
 class URLRequestImageValetTests: ImageValetTests {
   
-  let request = NSURLRequest(URL: NSURL(string: "http://www.example.com")!)
+  let request = URLRequest(url: URL(string: "http://www.example.com")!)
   
   override func setUp() {
     super.setUp()
     
-    sut = ImageValet(source:.URLRequest(request, placeholder: nil))
+    sut = ImageValet(source:.urlRequest(request, placeholder: nil))
   }
   
 }

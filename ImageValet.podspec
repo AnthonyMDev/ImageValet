@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/AnthonyMDev/ImageValet.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/AnthonyMDev'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Source/**/*'
 
   s.frameworks = 'UIKit'
-  s.dependency 'Alamofire', '~> 3.1'
-  s.dependency 'AlamofireImage', '~> 2.1'
+  s.dependency 'Alamofire', '~> 4.0'
+  s.dependency 'AlamofireImage', '~> 3.0'
 end
