@@ -394,7 +394,7 @@ extension UIButton {
     {
         if
             let currentRequest = imageRequestReceipt(for: state)?.request.task.originalRequest,
-            currentRequest.urlString == urlRequest?.urlRequest.urlString
+            currentRequest.urlRequest.url?.absoluteString == urlRequest?.urlRequest.url?.absoluteString
         {
             return true
         }
@@ -409,7 +409,7 @@ extension UIButton {
     {
         if
             let currentRequest = backgroundImageRequestReceipt(for: state)?.request.task.originalRequest,
-            currentRequest.urlString == urlRequest?.urlRequest.urlString
+            currentRequest.urlRequest.url?.absoluteString == urlRequest?.urlRequest.url?.absoluteString
         {
             return true
         }

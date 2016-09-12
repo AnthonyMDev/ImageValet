@@ -20,10 +20,10 @@
   "frameworks": "UIKit",
   "dependencies": {
     "Alamofire": [
-
+      "~> 4.0"
     ],
     "AlamofireImage": [
-
+      "~> 3.0"
     ]
   }
 }
