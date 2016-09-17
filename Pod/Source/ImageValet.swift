@@ -124,9 +124,9 @@ open class ImageValet: Equatable {
     fileprivate func downloadImageWithRequest(_ URLRequest: Foundation.URLRequest,
                                               completion: @escaping ((Result<UIImage>) -> Void)) {
         
-        let reciept: AlamofireImage.RequestReceipt? = ImageDownloader
-            .default.download(URLRequest,
-                              completion: { completion($0.result) })
+        _ = AlamofireImage.RequestReceipt? = ImageDownloader.default
+            .download(URLRequest,
+                      completion: { completion($0.result) })
         
     }
     

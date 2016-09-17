@@ -2,7 +2,7 @@ PODS:
   - Alamofire (4.0.0)
   - AlamofireImage (3.0.0):
     - Alamofire (~> 4.0)
-  - ImageValet (2.1.1):
+  - ImageValet (2.2.0):
     - Alamofire (~> 4.0)
     - AlamofireImage (~> 3.0)
   - Nimble (5.0.0-alpha.30p1)
@@ -28,9 +28,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
   AlamofireImage: 6594aa1139a67dcd36cde6da79ea4e5b318e60fb
-  ImageValet: 06bee1aecd3bc8547b7a2f76d8ed1cdcfb944128
+  ImageValet: e6269e36c8e655664b80a4cdde68815dfb0e420b
   Nimble: c5b995b4cd57789ec44b0cfb79640fc00e61a8c7
 
-PODFILE CHECKSUM: d68a704f59f0e0c0df42633d1e6b56e6dfee9634
+PODFILE CHECKSUM: 67476446ecf0845f4741d27f5d68b07290340509
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

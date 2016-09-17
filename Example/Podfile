@@ -1,7 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
-inhibit_all_warnings!
 
 abstract_target 'import_pods' do
   pod "ImageValet", :path => "../"
