@@ -12,6 +12,16 @@ abstract_target 'import_pods' do
   end
 
   target 'ImageValet_Tests' do
-    pod "Nimble", :git => 'https://github.com/Quick/Nimble', :branch => 'swift-3.0'
+    pod "Nimble"
+  end
+  
+  target 'TVOS' do
+      platform :tvos, '10.1'
+  end
+  
+  target 'TVOSTests' do
+      platform :tvos, '10.1'
+      
+      pod "Nimble"
   end
 end
