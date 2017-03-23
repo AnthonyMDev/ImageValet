@@ -50,7 +50,7 @@ open class ImageValet: Equatable {
         /// The `URLRequest` for the image source, if one exists.
         var request: URLRequest? {
             switch self {
-            case .urlRequest(let request_): return request
+            case .urlRequest(let request, _): return request
             default: return nil
             }
         }
