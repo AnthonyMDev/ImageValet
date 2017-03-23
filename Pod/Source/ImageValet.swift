@@ -17,19 +17,19 @@ open class ImageValet: Equatable {
      The source of an image for an `ImageValet`.
      
      - InMemory:    The image is stored in memory as a `UIImage`.
-     - image:        The `UIImage` stored in memory.
+        - image:        The `UIImage` stored in memory.
      
      - URL:         The image is stored remotely or locally and can be access with an `NSURL`.
-     - URL:          The `NSURL` to access the image.
-     - placeholder:  An optional `UIImage` to use a placeholder while the image from the `URL` is retrieved.
+        - URL:          The `NSURL` to access the image.
+        - placeholder:  An optional `UIImage` to use a placeholder while the image from the `URL` is retrieved.
      
      - URLRequest:  The image is stored remotely or locally and can be access with an `NSURLRequest`.
-     - request:      The `NSURLRequest` to access the image.
-     - placeholder:  An optional `UIImage` to use a placeholder while the image from the `request` is retrieved.
+        - request:      The `NSURLRequest` to access the image.
+        - placeholder:  An optional `UIImage` to use a placeholder while the image from the `request` is retrieved.
      
      - Operation:   The image can be retrieved through an asynchronous operation.
-     - operation:    The `ImageOperation` to be run in order to load the image.
-     - placeholder:  An optional `UIImage` to use a placeholder while the `operation` runs.
+        - operation:    The `ImageOperation` to be run in order to load the image.
+        - placeholder:  An optional `UIImage` to use a placeholder while the `operation` runs.
      */
     public enum ImageSource: Equatable {
         
@@ -37,6 +37,23 @@ open class ImageValet: Equatable {
         url(Foundation.URL, placeholder: UIImage?),
         urlRequest(Foundation.URLRequest, placeholder: UIImage?),
         operation(ImageOperation, placeholder: UIImage?)
+        
+        /// The `URL` for the image source, if one exists.
+        var url: URL? {
+            switch self {
+            case .url(let url, _): return url
+            case .urlRequest(let request, _): return request.url
+            default: return nil
+            }
+        }
+        
+        /// The `URLRequest` for the image source, if one exists.
+        var request: URLRequest? {
+            switch self {
+            case .urlRequest(let request_): return request
+            default: return nil
+            }
+        }
         
     }
     
@@ -169,14 +186,14 @@ open class ImageValet: Equatable {
     
     fileprivate func deliverImageToImageView(_ imageView: UIImageView, request: URLRequest, placeholder: UIImage?) {
         imageView.af_setImage(withURLRequest:request,
-                                            placeholderImage: placeholder,
-                                            filter: nil,
-                                            imageTransition: .crossDissolve(0.2),
-                                            completion: { [weak self] (response) -> Void in
-                                                if let image = response.result.value {
-                                                    self?.image = image
-                                                }
-            })
+                              placeholderImage: placeholder,
+                              filter: nil,
+                              imageTransition: .crossDissolve(0.2),
+                              completion: { [weak self] (response) -> Void in
+                                if let image = response.result.value {
+                                    self?.image = image
+                                }
+        })
     }
     
 }
