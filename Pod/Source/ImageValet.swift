@@ -39,7 +39,7 @@ open class ImageValet: Equatable {
         operation(ImageOperation, placeholder: UIImage?)
         
         /// The `URL` for the image source, if one exists.
-        var url: URL? {
+        public var url: URL? {
             switch self {
             case .url(let url, _): return url
             case .urlRequest(let request, _): return request.url
@@ -48,7 +48,7 @@ open class ImageValet: Equatable {
         }
         
         /// The `URLRequest` for the image source, if one exists.
-        var request: URLRequest? {
+        public var request: URLRequest? {
             switch self {
             case .urlRequest(let request, _): return request
             default: return nil
