@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Source/**/*'
 
   s.frameworks = 'UIKit'
-  s.dependency 'Alamofire', '~> 4.0'
-  s.dependency 'AlamofireImage', '~> 3.0'
+  s.dependency 'Alamofire', '~> 4.5'
+  s.dependency 'AlamofireImage', '~> 3.3'
 end

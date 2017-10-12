@@ -1,6 +1,6 @@
 {
   "name": "ImageValet",
-  "version": "2.2.1",
+  "version": "2.2.4",
   "summary": "Delivers an image from a local or remote source to a `UIImageView` or  closure, using `AlamofireImage` for asynchronous requests.",
   "homepage": "https://github.com/AnthonyMDev/ImageValet",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/AnthonyMDev/ImageValet.git",
-    "tag": "2.2.1"
+    "tag": "2.2.4"
   },
   "social_media_url": "https://twitter.com/AnthonyMDev",
   "requires_arc": true,
@@ -21,10 +21,10 @@
   "frameworks": "UIKit",
   "dependencies": {
     "Alamofire": [
-      "~> 4.0"
+      "~> 4.5"
     ],
     "AlamofireImage": [
-      "~> 3.0"
+      "~> 3.3"
     ]
   }
 }
