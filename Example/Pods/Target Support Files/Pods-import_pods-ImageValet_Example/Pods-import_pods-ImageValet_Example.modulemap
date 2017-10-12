@@ -1,0 +1,6 @@
+framework module Pods_import_pods_ImageValet_Example {
+  umbrella header "Pods-import_pods-ImageValet_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

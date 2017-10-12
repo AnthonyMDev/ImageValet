@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E4AB7B822ED1E185779B0DA /* Pods_ImageValet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67692EACB4AD2739B25A875B /* Pods_ImageValet_Tests.framework */; };
+		3093F643F0532FA72CCE190B /* Pods_import_pods_TVOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F8453D1128C53A4045B7C4 /* Pods_import_pods_TVOSTests.framework */; };
+		3CBC0E5048851EFFC593B96A /* Pods_import_pods_ImageValet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAB88E45564B4C40F187BAB /* Pods_import_pods_ImageValet_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* ImageValetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* ImageValetTests.swift */; };
-		BF00B0FFA854BA9C584E2413 /* Pods_ImageValet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5543052648D6C2933780AF /* Pods_ImageValet_Example.framework */; };
+		65FBAAAFE71246C6482F8944 /* Pods_import_pods_ImageValet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258DD79A4CA0CAC3B71E4E09 /* Pods_import_pods_ImageValet_Tests.framework */; };
+		928CAAE61E5CD79F002D52A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928CAAE51E5CD79F002D52A1 /* AppDelegate.swift */; };
+		928CAAE81E5CD79F002D52A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928CAAE71E5CD79F002D52A1 /* ViewController.swift */; };
+		928CAAEB1E5CD79F002D52A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928CAAE91E5CD79F002D52A1 /* Main.storyboard */; };
+		928CAAED1E5CD79F002D52A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928CAAEC1E5CD79F002D52A1 /* Assets.xcassets */; };
+		928CAB001E5CD822002D52A1 /* ImageValetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* ImageValetTests.swift */; };
+		9FDFD7B66CD2B6901617BB3F /* Pods_import_pods_TVOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E0E51310808EEEB7844B59 /* Pods_import_pods_TVOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,12 +32,19 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = ImageValet;
 		};
+		928CAAF41E5CD79F002D52A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928CAAE21E5CD79F002D52A1;
+			remoteInfo = TVOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03719F9C5B4D95366FC7D6A1 /* Pods-ImageValet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageValet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageValet_Example/Pods-ImageValet_Example.release.xcconfig"; sourceTree = "<group>"; };
-		171E0BE52686B26CDC54C201 /* Pods-ImageValet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageValet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageValet_Tests/Pods-ImageValet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B5543052648D6C2933780AF /* Pods_ImageValet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageValet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		258DD79A4CA0CAC3B71E4E09 /* Pods_import_pods_ImageValet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_ImageValet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3252D84A83BBB28AD85198B4 /* Pods-import_pods-ImageValet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-ImageValet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-ImageValet_Example/Pods-import_pods-ImageValet_Example.release.xcconfig"; sourceTree = "<group>"; };
+		53D024FC914F91BB09FA0104 /* Pods-import_pods-ImageValet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-ImageValet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-ImageValet_Example/Pods-import_pods-ImageValet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ImageValet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageValet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +55,25 @@
 		607FACE51AFB9204008FA782 /* ImageValet_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageValet_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* ImageValetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageValetTests.swift; sourceTree = "<group>"; };
-		67692EACB4AD2739B25A875B /* Pods_ImageValet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageValet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		891D0297492ABF8694F7787A /* Pods-ImageValet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageValet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageValet_Example/Pods-ImageValet_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7CAB88E45564B4C40F187BAB /* Pods_import_pods_ImageValet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_ImageValet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6F3AE49175AB1F2AB44D32 /* Pods-import_pods-TVOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-TVOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-TVOSTests/Pods-import_pods-TVOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		91F8453D1128C53A4045B7C4 /* Pods_import_pods_TVOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_TVOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		928CAAE31E5CD79F002D52A1 /* TVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		928CAAE51E5CD79F002D52A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		928CAAE71E5CD79F002D52A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		928CAAEA1E5CD79F002D52A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		928CAAEC1E5CD79F002D52A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		928CAAEE1E5CD79F002D52A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928CAAF31E5CD79F002D52A1 /* TVOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		928CAAF91E5CD79F002D52A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6BA43DC447E63A513F472B9 /* Pods-import_pods-TVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-TVOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-TVOS/Pods-import_pods-TVOS.release.xcconfig"; sourceTree = "<group>"; };
 		A8DE8C2D28D62F6673195D2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B20568E2C446883DA53FD561 /* Pods-ImageValet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageValet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageValet_Tests/Pods-ImageValet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A9E0E51310808EEEB7844B59 /* Pods_import_pods_TVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_TVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD0F2D8F6B570AA93FD71F5 /* Pods-import_pods-TVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-TVOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-TVOS/Pods-import_pods-TVOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C1069AB72281673392B93EC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C3121A460EA7DC66F36D1848 /* Pods-import_pods-ImageValet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-ImageValet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-ImageValet_Tests/Pods-import_pods-ImageValet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DADB7DF2649500E2F7540330 /* Pods-import_pods-TVOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-TVOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-TVOSTests/Pods-import_pods-TVOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFD6F60A5454FA8C2D3DB0FF /* Pods-import_pods-ImageValet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-ImageValet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-ImageValet_Tests/Pods-import_pods-ImageValet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7B5BDAF3E71A5AB91C18693 /* ImageValet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImageValet.podspec; path = ../ImageValet.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF00B0FFA854BA9C584E2413 /* Pods_ImageValet_Example.framework in Frameworks */,
+				3CBC0E5048851EFFC593B96A /* Pods_import_pods_ImageValet_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,18 +90,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E4AB7B822ED1E185779B0DA /* Pods_ImageValet_Tests.framework in Frameworks */,
+				65FBAAAFE71246C6482F8944 /* Pods_import_pods_ImageValet_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928CAAE01E5CD79F002D52A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDFD7B66CD2B6901617BB3F /* Pods_import_pods_TVOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928CAAF01E5CD79F002D52A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3093F643F0532FA72CCE190B /* Pods_import_pods_TVOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07954EF57502154AB8D253C4 /* Frameworks */ = {
+		21EC31B8747BB2E6A71E872C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B5543052648D6C2933780AF /* Pods_ImageValet_Example.framework */,
-				67692EACB4AD2739B25A875B /* Pods_ImageValet_Tests.framework */,
+				53D024FC914F91BB09FA0104 /* Pods-import_pods-ImageValet_Example.debug.xcconfig */,
+				3252D84A83BBB28AD85198B4 /* Pods-import_pods-ImageValet_Example.release.xcconfig */,
+				EFD6F60A5454FA8C2D3DB0FF /* Pods-import_pods-ImageValet_Tests.debug.xcconfig */,
+				C3121A460EA7DC66F36D1848 /* Pods-import_pods-ImageValet_Tests.release.xcconfig */,
+				BFD0F2D8F6B570AA93FD71F5 /* Pods-import_pods-TVOS.debug.xcconfig */,
+				A6BA43DC447E63A513F472B9 /* Pods-import_pods-TVOS.release.xcconfig */,
+				DADB7DF2649500E2F7540330 /* Pods-import_pods-TVOSTests.debug.xcconfig */,
+				8E6F3AE49175AB1F2AB44D32 /* Pods-import_pods-TVOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D63B0B0C25EB9E0F4112233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CAB88E45564B4C40F187BAB /* Pods_import_pods_ImageValet_Example.framework */,
+				258DD79A4CA0CAC3B71E4E09 /* Pods_import_pods_ImageValet_Tests.framework */,
+				A9E0E51310808EEEB7844B59 /* Pods_import_pods_TVOS.framework */,
+				91F8453D1128C53A4045B7C4 /* Pods_import_pods_TVOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,9 +145,11 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ImageValet */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				928CAAE41E5CD79F002D52A1 /* TVOS */,
+				928CAAF61E5CD79F002D52A1 /* TVOSTests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				B7CF3540639ED621497F13BB /* Pods */,
-				07954EF57502154AB8D253C4 /* Frameworks */,
+				21EC31B8747BB2E6A71E872C /* Pods */,
+				3D63B0B0C25EB9E0F4112233 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +158,8 @@
 			children = (
 				607FACD01AFB9204008FA782 /* ImageValet_Example.app */,
 				607FACE51AFB9204008FA782 /* ImageValet_Tests.xctest */,
+				928CAAE31E5CD79F002D52A1 /* TVOS.app */,
+				928CAAF31E5CD79F002D52A1 /* TVOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,15 +213,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B7CF3540639ED621497F13BB /* Pods */ = {
+		928CAAE41E5CD79F002D52A1 /* TVOS */ = {
 			isa = PBXGroup;
 			children = (
-				891D0297492ABF8694F7787A /* Pods-ImageValet_Example.debug.xcconfig */,
-				03719F9C5B4D95366FC7D6A1 /* Pods-ImageValet_Example.release.xcconfig */,
-				171E0BE52686B26CDC54C201 /* Pods-ImageValet_Tests.debug.xcconfig */,
-				B20568E2C446883DA53FD561 /* Pods-ImageValet_Tests.release.xcconfig */,
+				928CAAE51E5CD79F002D52A1 /* AppDelegate.swift */,
+				928CAAE71E5CD79F002D52A1 /* ViewController.swift */,
+				928CAAE91E5CD79F002D52A1 /* Main.storyboard */,
+				928CAAEC1E5CD79F002D52A1 /* Assets.xcassets */,
+				928CAAEE1E5CD79F002D52A1 /* Info.plist */,
 			);
-			name = Pods;
+			path = TVOS;
+			sourceTree = "<group>";
+		};
+		928CAAF61E5CD79F002D52A1 /* TVOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				928CAAF91E5CD79F002D52A1 /* Info.plist */,
+			);
+			path = TVOSTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ImageValet_Example" */;
 			buildPhases = (
-				3B65B8C05C108ECCEAF8CE52 /* Check Pods Manifest.lock */,
+				4778FA9F91C5EE8F5870A5A4 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				0533940DEF83C7D56E572982 /* Embed Pods Frameworks */,
-				2663DA0AA3325E3618BD40F7 /* Copy Pods Resources */,
+				00C7448E31EBECB82C5DDEFA /* [CP] Embed Pods Frameworks */,
+				14F552539272CC31F586D595 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ImageValet_Tests" */;
 			buildPhases = (
-				099204175D1326BD9071DCE9 /* Check Pods Manifest.lock */,
+				EF00B33AA8C42657111BABC0 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				97EE69E11C3A8B36BA623939 /* Embed Pods Frameworks */,
-				9B27C4B92DE5331A77665C21 /* Copy Pods Resources */,
+				FAD0C96AB20D0A24A20C4441 /* [CP] Embed Pods Frameworks */,
+				E6A1C5C659B203E082E9C95E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,22 +277,76 @@
 			productReference = 607FACE51AFB9204008FA782 /* ImageValet_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		928CAAE21E5CD79F002D52A1 /* TVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928CAAFE1E5CD79F002D52A1 /* Build configuration list for PBXNativeTarget "TVOS" */;
+			buildPhases = (
+				19B2BED56138ACE0C6B4C8BF /* [CP] Check Pods Manifest.lock */,
+				928CAADF1E5CD79F002D52A1 /* Sources */,
+				928CAAE01E5CD79F002D52A1 /* Frameworks */,
+				928CAAE11E5CD79F002D52A1 /* Resources */,
+				4B3FAE5DFE98E9BCF8D404F3 /* [CP] Embed Pods Frameworks */,
+				E20172660F90FA2727479F93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVOS;
+			productName = TVOS;
+			productReference = 928CAAE31E5CD79F002D52A1 /* TVOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928CAAF21E5CD79F002D52A1 /* TVOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928CAAFF1E5CD79F002D52A1 /* Build configuration list for PBXNativeTarget "TVOSTests" */;
+			buildPhases = (
+				EAACA98F713EDFBB4DEE96A7 /* [CP] Check Pods Manifest.lock */,
+				928CAAEF1E5CD79F002D52A1 /* Sources */,
+				928CAAF01E5CD79F002D52A1 /* Frameworks */,
+				928CAAF11E5CD79F002D52A1 /* Resources */,
+				6DD09184AF15C4BF0336655C /* [CP] Embed Pods Frameworks */,
+				E2DF05AFA1383AC4FBB93945 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928CAAF51E5CD79F002D52A1 /* PBXTargetDependency */,
+			);
+			name = TVOSTests;
+			productName = TVOSTests;
+			productReference = 928CAAF31E5CD79F002D52A1 /* TVOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					928CAAE21E5CD79F002D52A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 773U8S8CN7;
+						ProvisioningStyle = Automatic;
+					};
+					928CAAF21E5CD79F002D52A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 773U8S8CN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 928CAAE21E5CD79F002D52A1;
 					};
 				};
 			};
@@ -237,6 +365,8 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* ImageValet_Example */,
 				607FACE41AFB9204008FA782 /* ImageValet_Tests */,
+				928CAAE21E5CD79F002D52A1 /* TVOS */,
+				928CAAF21E5CD79F002D52A1 /* TVOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,97 +389,203 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		928CAAE11E5CD79F002D52A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928CAAED1E5CD79F002D52A1 /* Assets.xcassets in Resources */,
+				928CAAEB1E5CD79F002D52A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928CAAF11E5CD79F002D52A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0533940DEF83C7D56E572982 /* Embed Pods Frameworks */ = {
+		00C7448E31EBECB82C5DDEFA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageValet_Example/Pods-ImageValet_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-ImageValet_Example/Pods-import_pods-ImageValet_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		099204175D1326BD9071DCE9 /* Check Pods Manifest.lock */ = {
+		14F552539272CC31F586D595 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-ImageValet_Example/Pods-import_pods-ImageValet_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2663DA0AA3325E3618BD40F7 /* Copy Pods Resources */ = {
+		19B2BED56138ACE0C6B4C8BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageValet_Example/Pods-ImageValet_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3B65B8C05C108ECCEAF8CE52 /* Check Pods Manifest.lock */ = {
+		4778FA9F91C5EE8F5870A5A4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		97EE69E11C3A8B36BA623939 /* Embed Pods Frameworks */ = {
+		4B3FAE5DFE98E9BCF8D404F3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageValet_Tests/Pods-ImageValet_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-TVOS/Pods-import_pods-TVOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9B27C4B92DE5331A77665C21 /* Copy Pods Resources */ = {
+		6DD09184AF15C4BF0336655C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageValet_Tests/Pods-ImageValet_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-TVOSTests/Pods-import_pods-TVOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20172660F90FA2727479F93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-TVOS/Pods-import_pods-TVOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DF05AFA1383AC4FBB93945 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-TVOSTests/Pods-import_pods-TVOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A1C5C659B203E082E9C95E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-ImageValet_Tests/Pods-import_pods-ImageValet_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAACA98F713EDFBB4DEE96A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF00B33AA8C42657111BABC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAD0C96AB20D0A24A20C4441 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-ImageValet_Tests/Pods-import_pods-ImageValet_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -372,6 +608,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		928CAADF1E5CD79F002D52A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928CAAE81E5CD79F002D52A1 /* ViewController.swift in Sources */,
+				928CAAE61E5CD79F002D52A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928CAAEF1E5CD79F002D52A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928CAB001E5CD822002D52A1 /* ImageValetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -379,6 +632,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* ImageValet_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		928CAAF51E5CD79F002D52A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928CAAE21E5CD79F002D52A1 /* TVOS */;
+			targetProxy = 928CAAF41E5CD79F002D52A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,6 +657,14 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
+		928CAAE91E5CD79F002D52A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928CAAEA1E5CD79F002D52A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -415,8 +681,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -439,7 +707,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -460,8 +728,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -477,43 +747,49 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 891D0297492ABF8694F7787A /* Pods-ImageValet_Example.debug.xcconfig */;
+			baseConfigurationReference = 53D024FC914F91BB09FA0104 /* Pods-import_pods-ImageValet_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageValet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03719F9C5B4D95366FC7D6A1 /* Pods-ImageValet_Example.release.xcconfig */;
+			baseConfigurationReference = 3252D84A83BBB28AD85198B4 /* Pods-import_pods-ImageValet_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageValet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 171E0BE52686B26CDC54C201 /* Pods-ImageValet_Tests.debug.xcconfig */;
+			baseConfigurationReference = EFD6F60A5454FA8C2D3DB0FF /* Pods-import_pods-ImageValet_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -522,19 +798,106 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageValet_Example.app/ImageValet_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B20568E2C446883DA53FD561 /* Pods-ImageValet_Tests.release.xcconfig */;
+			baseConfigurationReference = C3121A460EA7DC66F36D1848 /* Pods-import_pods-ImageValet_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageValet_Example.app/ImageValet_Example";
+			};
+			name = Release;
+		};
+		928CAAFA1E5CD79F002D52A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD0F2D8F6B570AA93FD71F5 /* Pods-import_pods-TVOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 773U8S8CN7;
+				INFOPLIST_FILE = TVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app-order.TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		928CAAFB1E5CD79F002D52A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BA43DC447E63A513F472B9 /* Pods-import_pods-TVOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = 773U8S8CN7;
+				INFOPLIST_FILE = TVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app-order.TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		928CAAFC1E5CD79F002D52A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADB7DF2649500E2F7540330 /* Pods-import_pods-TVOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 773U8S8CN7;
+				INFOPLIST_FILE = TVOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app-order.TVOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOS.app/TVOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		928CAAFD1E5CD79F002D52A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6F3AE49175AB1F2AB44D32 /* Pods-import_pods-TVOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = 773U8S8CN7;
+				INFOPLIST_FILE = TVOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app-order.TVOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOS.app/TVOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
@@ -564,6 +927,24 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928CAAFE1E5CD79F002D52A1 /* Build configuration list for PBXNativeTarget "TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928CAAFA1E5CD79F002D52A1 /* Debug */,
+				928CAAFB1E5CD79F002D52A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928CAAFF1E5CD79F002D52A1 /* Build configuration list for PBXNativeTarget "TVOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928CAAFC1E5CD79F002D52A1 /* Debug */,
+				928CAAFD1E5CD79F002D52A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
