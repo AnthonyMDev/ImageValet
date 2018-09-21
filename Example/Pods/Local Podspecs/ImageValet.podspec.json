@@ -21,7 +21,7 @@
   "frameworks": "UIKit",
   "dependencies": {
     "Alamofire": [
-      "~> 4.5"
+      "~> 4.7"
     ],
     "AlamofireImage": [
       "~> 3.3"
