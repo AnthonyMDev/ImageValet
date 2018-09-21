@@ -71,7 +71,7 @@ open class ImageValet: Equatable {
     }
     
     /// The source of the image that the valet will manage.
-    open let source: ImageSource
+    public let source: ImageSource
     
     /// The image that the valet manages. If the image has not been retrieved yet, this will be `nil`.
     open fileprivate(set) var image: UIImage?
