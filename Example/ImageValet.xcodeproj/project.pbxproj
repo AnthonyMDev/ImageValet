@@ -245,7 +245,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				00C7448E31EBECB82C5DDEFA /* [CP] Embed Pods Frameworks */,
-				14F552539272CC31F586D595 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,7 +264,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				FAD0C96AB20D0A24A20C4441 /* [CP] Embed Pods Frameworks */,
-				E6A1C5C659B203E082E9C95E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,7 +284,6 @@
 				928CAAE01E5CD79F002D52A1 /* Frameworks */,
 				928CAAE11E5CD79F002D52A1 /* Resources */,
 				4B3FAE5DFE98E9BCF8D404F3 /* [CP] Embed Pods Frameworks */,
-				E20172660F90FA2727479F93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +303,6 @@
 				928CAAF01E5CD79F002D52A1 /* Frameworks */,
 				928CAAF11E5CD79F002D52A1 /* Resources */,
 				6DD09184AF15C4BF0336655C /* [CP] Embed Pods Frameworks */,
-				E2DF05AFA1383AC4FBB93945 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -430,21 +426,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-ImageValet_Example/Pods-import_pods-ImageValet_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		14F552539272CC31F586D595 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-ImageValet_Example/Pods-import_pods-ImageValet_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		19B2BED56138ACE0C6B4C8BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -525,51 +506,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-TVOSTests/Pods-import_pods-TVOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E20172660F90FA2727479F93 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-TVOS/Pods-import_pods-TVOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2DF05AFA1383AC4FBB93945 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-TVOSTests/Pods-import_pods-TVOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6A1C5C659B203E082E9C95E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-import_pods-ImageValet_Tests/Pods-import_pods-ImageValet_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EAACA98F713EDFBB4DEE96A7 /* [CP] Check Pods Manifest.lock */ = {
