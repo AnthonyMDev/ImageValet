@@ -3,16 +3,16 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 abstract_target 'import_pods' do
-  pod "ImageValet", :path => "../"
-  pod "Alamofire" 
-  pod "AlamofireImage"
+  pod 'ImageValet', :path => '../'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
 
   target 'ImageValet_Example' do
 
   end
 
   target 'ImageValet_Tests' do
-    pod "Nimble"
+    pod 'Nimble'
   end
   
   target 'TVOS' do
@@ -22,6 +22,6 @@ abstract_target 'import_pods' do
   target 'TVOSTests' do
       platform :tvos, '10.1'
       
-      pod "Nimble"
+      pod 'Nimble'
   end
 end

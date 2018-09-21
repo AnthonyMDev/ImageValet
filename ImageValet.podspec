@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ImageValet"
-  s.version          = "2.2.4"
+  s.version          = "2.3.0"
   s.summary          = "Delivers an image from a local or remote source to a `UIImageView` or  closure, using `AlamofireImage` for asynchronous requests."
 
   s.homepage         = "https://github.com/AnthonyMDev/ImageValet"
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Source/**/*'
 
   s.frameworks = 'UIKit'
-  s.dependency 'Alamofire', '~> 4.0'
-  s.dependency 'AlamofireImage', '~> 3.0'
+  s.dependency 'Alamofire', '~> 4.5'
+  s.dependency 'AlamofireImage', '~> 3.3'
 end
