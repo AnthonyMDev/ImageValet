@@ -188,12 +188,7 @@ open class ImageValet: Equatable {
         imageView.af_setImage(withURLRequest:request,
                               placeholderImage: placeholder,
                               filter: nil,
-                              imageTransition: .crossDissolve(0.2),
-                              completion: { [weak self] (response) -> Void in
-                                if let image = response.result.value {
-                                    self?.image = image
-                                }
-        })
+                              imageTransition: .crossDissolve(0.2))
     }
     
 }
@@ -234,4 +229,5 @@ public func ==(lhs: ImageValet.ImageSource, rhs: ImageValet.ImageSource) -> Bool
         
     default: return false
     }
+    
 }
