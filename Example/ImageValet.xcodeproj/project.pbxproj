@@ -74,7 +74,7 @@
 		C1069AB72281673392B93EC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C685D561E8080674F8995D94 /* Pods-import_pods-ImageValet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-import_pods-ImageValet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-import_pods-ImageValet_Example/Pods-import_pods-ImageValet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC7B304EB8533CB1B21995D6 /* Pods_import_pods_ImageValet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_ImageValet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7B5BDAF3E71A5AB91C18693 /* ImageValet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImageValet.podspec; path = ../ImageValet.podspec; sourceTree = "<group>"; };
+		F7B5BDAF3E71A5AB91C18693 /* ImageValet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ImageValet.podspec; path = ../ImageValet.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
