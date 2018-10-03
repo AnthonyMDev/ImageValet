@@ -71,7 +71,7 @@ open class ImageValet: Equatable {
     }
     
     /// The source of the image that the valet will manage.
-    open let source: ImageSource
+    public let source: ImageSource
     
     /// The image that the valet manages. If the image has not been retrieved yet, this will be `nil`.
     open fileprivate(set) var image: UIImage?
@@ -188,12 +188,7 @@ open class ImageValet: Equatable {
         imageView.af_setImage(withURLRequest:request,
                               placeholderImage: placeholder,
                               filter: nil,
-                              imageTransition: .crossDissolve(0.2),
-                              completion: { [weak self] (response) -> Void in
-                                if let image = response.result.value {
-                                    self?.image = image
-                                }
-        })
+                              imageTransition: .crossDissolve(0.2))
     }
     
 }
@@ -234,4 +229,5 @@ public func ==(lhs: ImageValet.ImageSource, rhs: ImageValet.ImageSource) -> Bool
         
     default: return false
     }
+    
 }

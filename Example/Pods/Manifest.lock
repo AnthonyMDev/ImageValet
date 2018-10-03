@@ -1,11 +1,11 @@
 PODS:
-  - Alamofire (4.5.1)
-  - AlamofireImage (3.3.0):
-    - Alamofire (~> 4.5)
-  - ImageValet (2.2.4):
-    - Alamofire (~> 4.5)
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - ImageValet (2.3.0):
+    - Alamofire (~> 4.7)
     - AlamofireImage (~> 3.3)
-  - Nimble (7.0.2)
+  - Nimble (7.3.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -13,16 +13,22 @@ DEPENDENCIES:
   - ImageValet (from `../`)
   - Nimble
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Nimble
+
 EXTERNAL SOURCES:
   ImageValet:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
-  ImageValet: 84e79e02a895236b31e3b09fd5539e3c8886d77a
-  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  ImageValet: 6d5cd0b607f9b54aebc2950668e05f4a1327b728
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
 
 PODFILE CHECKSUM: 3ef9fbcfd4af0d191e6db0aff77e6681344a16c1
 
-COCOAPODS: 1.3.0
+COCOAPODS: 1.5.3
