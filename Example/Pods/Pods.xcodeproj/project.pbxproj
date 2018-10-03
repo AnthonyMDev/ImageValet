@@ -407,7 +407,7 @@
 		25D8A0637E275D23792C2A45664D0382 /* Nimble-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-iOS-dummy.m"; sourceTree = "<group>"; };
 		2601899D6AA0B959410F15D1BADCED02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		267DADCA152CB4E150664F90A0A11BCD /* Nimble-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Nimble-tvOS-umbrella.h"; path = "../Nimble-tvOS/Nimble-tvOS-umbrella.h"; sourceTree = "<group>"; };
-		2769EEBB8B4BB4D12DDF32C5B8801B9E /* Pods_import_pods_ImageValet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_ImageValet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2769EEBB8B4BB4D12DDF32C5B8801B9E /* Pods_import_pods_ImageValet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_import_pods_ImageValet_Example.framework; path = "Pods-import_pods-ImageValet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AEC89BFF8BEF37B2D2E8B8BD90DD39 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		28E70305F95EA7E6323E7A2935DBF4C8 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
 		2C41A895BD9EC471397672BCBC0F16FF /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
@@ -418,11 +418,11 @@
 		30DF13A8F6EBA776D2416769918F9423 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
 		318CE937E3449835A44EF2CBB4C8220E /* Pods-import_pods-ImageValet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-import_pods-ImageValet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33820DECA2D6001FB79086EB822E4F02 /* Nimble-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Nimble-iOS.modulemap"; sourceTree = "<group>"; };
-		33C88EBB1EB543BA06D14D9B7ABB590F /* Pods_import_pods_TVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_TVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C88EBB1EB543BA06D14D9B7ABB590F /* Pods_import_pods_TVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_import_pods_TVOS.framework; path = "Pods-import_pods-TVOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35151E6DC7A6128304075FB715BC3AE6 /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		3571841E9DBE2BE2B9B5AF471F9354B9 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
 		35E7B813A67FD90BAECBC1F3FF1B7692 /* ImageValet-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ImageValet-iOS.xcconfig"; sourceTree = "<group>"; };
-		366384B16B47BC49A99F902EF8538AA0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		366384B16B47BC49A99F902EF8538AA0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36979EE1E4FF2721163DE129C05D1A81 /* Pods-import_pods-TVOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-import_pods-TVOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3AA819CE5A4943C7E690426277CB7A67 /* Pods-import_pods-TVOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-import_pods-TVOSTests-frameworks.sh"; sourceTree = "<group>"; };
 		3AC7BC87354767161FA9F555DBE7DBAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -450,13 +450,13 @@
 		55BA310A8FE2F2D83179F7F4DB2FA37C /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
 		573746BC332C4635DFA4DE948EAC8FB3 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Matchers/Async.swift; sourceTree = "<group>"; };
 		585C1A86FA0ED66DEBF73CBC7506C729 /* ImageValet-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ImageValet-tvOS.modulemap"; path = "../ImageValet-tvOS/ImageValet-tvOS.modulemap"; sourceTree = "<group>"; };
-		58FBE2BD525236F022906B81033A0235 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		58FBE2BD525236F022906B81033A0235 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
 		5995911AB6A9154660A4BE7A10D1FE61 /* Alamofire-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-umbrella.h"; sourceTree = "<group>"; };
 		5A1C7B379C2C63DDF84EE0057AB866C8 /* AlamofireImage-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "AlamofireImage-tvOS.modulemap"; path = "../AlamofireImage-tvOS/AlamofireImage-tvOS.modulemap"; sourceTree = "<group>"; };
 		5AC43584735EC9552D7277E78C8DD4DC /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		5B2154FF512E132ACCEF1B619EF8B896 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C0CA7DF5BCCD9987F9AC49D2C8CC019 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		5C5530B128B2F21AE668C03A841137B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C5530B128B2F21AE668C03A841137B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5D804A70B91E965ECC5A044B4683944D /* Alamofire-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-tvOS-prefix.pch"; path = "../Alamofire-tvOS/Alamofire-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		5F7FC8FCB7B67063B62DFF4E9AAB5477 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 		6013721720B2A91A5E9A1345080ED8F8 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
@@ -467,7 +467,7 @@
 		63B8921ED9C47B0C81BA6EBBF47F5B51 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		63F9C07304E9503C508015836AE204D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		655A749E68F5EAA3F3641959594A86DA /* Pods-import_pods-ImageValet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-import_pods-ImageValet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		65F1906E2B513AECFDC6737E3B9A0514 /* Pods_import_pods_TVOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_TVOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F1906E2B513AECFDC6737E3B9A0514 /* Pods_import_pods_TVOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_import_pods_TVOSTests.framework; path = "Pods-import_pods-TVOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		674E7C44538271B8994D45147B75468C /* Pods-import_pods-ImageValet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-import_pods-ImageValet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6AA9C397DE9855F45B6A793CA998130E /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		6DCA99A29E8133C6D96A59331317ACB7 /* Nimble-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Nimble-iOS.xcconfig"; sourceTree = "<group>"; };
@@ -490,20 +490,20 @@
 		83F8B7232D46869AF41F70543DE94326 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85849555DABBFF10DDAE1531AD18DA3A /* Nimble-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Nimble-tvOS-dummy.m"; path = "../Nimble-tvOS/Nimble-tvOS-dummy.m"; sourceTree = "<group>"; };
 		85F9D93D45FBE63DE2F5462852C90C8D /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		891AA2E228A453D243E74F0F8ECC3380 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		891AA2E228A453D243E74F0F8ECC3380 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = "Nimble-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8937BBA8F5BF8525F9EC02F0E80461C0 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		8A8CA0F4EBF06054BD7A33BA342B9795 /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
 		8B25D7902B7E2933250A44C42F68FE04 /* Pods-import_pods-ImageValet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-import_pods-ImageValet_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8BC686C5ED133F494154D01FD1AF2ACB /* ImageValet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageValet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC686C5ED133F494154D01FD1AF2ACB /* ImageValet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageValet.framework; path = "ImageValet-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBD70107F27AB0D9B51E75AD9ECB2FB /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		8E0132CAE7E144A8608173734A78775E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8E921DC9B63DF9DDCECDD225BA29302A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90B0939B118DC2F77B26B62D84654B19 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B0939B118DC2F77B26B62D84654B19 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		926415B208BE06B1A18FB2B8CDBF01E3 /* ImageValet-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageValet-iOS-umbrella.h"; sourceTree = "<group>"; };
 		92F00CC421FAD32ADC497C69AABC02CF /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94031B2EE04D2B61EC4464FE5329DA98 /* Pods-import_pods-TVOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-import_pods-TVOS-umbrella.h"; sourceTree = "<group>"; };
-		94915745E20078B86B3676D1148F6C33 /* ImageValet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageValet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94915745E20078B86B3676D1148F6C33 /* ImageValet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageValet.framework; path = "ImageValet-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C095FBE85F54139CA11322814F8669 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
 		9589FF77B0D80F3D36D37A8B586EA4E9 /* SatisfyAllOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAllOf.swift; path = Sources/Nimble/Matchers/SatisfyAllOf.swift; sourceTree = "<group>"; };
 		984295801D585AF0031081258A19EFEF /* Pods-import_pods-ImageValet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-import_pods-ImageValet_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -516,7 +516,7 @@
 		9EAFE2BA823CABBBAD8C86AFC43C6735 /* Pods-import_pods-TVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-import_pods-TVOS.release.xcconfig"; sourceTree = "<group>"; };
 		A1556765CFA18AA881F89EB1F0F84BF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Nimble-tvOS/Info.plist"; sourceTree = "<group>"; };
 		A19110B14FC303FD560E8FA171B050B7 /* Pods-import_pods-TVOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-import_pods-TVOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A1DF6F6F18EEC7DF3A5D3A7E6080CE1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A1DF6F6F18EEC7DF3A5D3A7E6080CE1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A38EAB28EF8740DB3C4F9B8909ADE0BB /* Pods-import_pods-TVOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-import_pods-TVOSTests.modulemap"; sourceTree = "<group>"; };
 		A4B956B6C58964949884CB6E820C47E7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DA94F1A5685B42314787372F1E137C /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
@@ -529,7 +529,7 @@
 		ABCB4B7D4DB9EB39FA0A1E2335CAC099 /* Pods-import_pods-TVOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-import_pods-TVOS-dummy.m"; sourceTree = "<group>"; };
 		AC2482C0450CEC2E47186C874A5C3254 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		AC5394F27DC03777AC521784D9E730FA /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
-		AC6F5736DA7B4F276D5A5FB0441E468D /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6F5736DA7B4F276D5A5FB0441E468D /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = "AlamofireImage-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0D29A255693E31F699FC817C7CAA1 /* Alamofire-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Alamofire-tvOS.modulemap"; path = "../Alamofire-tvOS/Alamofire-tvOS.modulemap"; sourceTree = "<group>"; };
 		B46F604DCFBFC0654BEBDAF464835CF8 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
 		B7FBE9ECD9491D09A2F979A5CE090C9E /* Pods-import_pods-TVOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-import_pods-TVOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -573,17 +573,17 @@
 		E1EE7CAC2CC276A82456C7200196E796 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		E5E5B12DB0FE239EEE667EA90D200227 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		E673B537EA1891E194830DD53C205F22 /* AlamofireImage-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AlamofireImage-tvOS-prefix.pch"; path = "../AlamofireImage-tvOS/AlamofireImage-tvOS-prefix.pch"; sourceTree = "<group>"; };
-		E74C4D22CD2C0E65836F67291BCAC6A4 /* Pods_import_pods_ImageValet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_import_pods_ImageValet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74C4D22CD2C0E65836F67291BCAC6A4 /* Pods_import_pods_ImageValet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_import_pods_ImageValet_Tests.framework; path = "Pods-import_pods-ImageValet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D05568E52795360F5CDBFF36F93434 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		EAC4A234A423FA2D6CA6440075D5ED9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAE1D250B2329CF9DF9EEC66C3D5A37B /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE1D250B2329CF9DF9EEC66C3D5A37B /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = "Nimble-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE4255A1E10673E9E872C283A1EC7D0 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
 		ECF04430EB22A385FF3CCFC55F7B7C99 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		EE59AC0ABD569D7739E9BABEF1E4A552 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
-		F11F413FF91B9F9054A4A962A96B129C /* ImageValet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ImageValet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F11F413FF91B9F9054A4A962A96B129C /* ImageValet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ImageValet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1493C02DFC768C4329D10BD589B21C2 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
 		F2FE6F018462E9B7CAFD2A56E799AC54 /* ImageValet-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageValet-iOS-dummy.m"; sourceTree = "<group>"; };
-		F33070CE457F9E98BB59D185A37CC2FA /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33070CE457F9E98BB59D185A37CC2FA /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = "AlamofireImage-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4693415207B4A5B5A974684FC2E8749 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		F4A1F96ADA5E7C58F1CBFAAC5586DA1F /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		FB436845F538E7C25EF4A10D8F2A0A28 /* Pods-import_pods-ImageValet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-import_pods-ImageValet_Example-dummy.m"; sourceTree = "<group>"; };
@@ -716,6 +716,7 @@
 				555D8DEAF5A500B4DFC2012D52C35034 /* UIImageView+AlamofireImage.swift */,
 				AADD2557B73FA616C7858B1C0C6840EF /* Support Files */,
 			);
+			name = AlamofireImage;
 			path = AlamofireImage;
 			sourceTree = "<group>";
 		};
@@ -925,6 +926,7 @@
 				03D4564883C9A375422E0045D48D6042 /* XCTestObservationCenter+Register.m */,
 				353686A1E8A531F055BE87887776F214 /* Support Files */,
 			);
+			name = Nimble;
 			path = Nimble;
 			sourceTree = "<group>";
 		};
@@ -1064,6 +1066,7 @@
 				C8BDAF0944035C31F4E1BFE0FE694845 /* Validation.swift */,
 				1874CE9D2EDC2D501F879631416ABF40 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1434,20 +1437,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					1861C7EA81F002CCFE28A2C6488B9DF6 = {
-						LastSwiftMigration = 1000;
-					};
-					4874BCA88F96F9EC4D2E77DFB4CE97D4 = {
-						LastSwiftMigration = 1000;
-					};
-					9B8F9F26B4DADB31A06C5522201D1989 = {
-						LastSwiftMigration = 1000;
-					};
-					E35CB8E6F19D12252136EF18DFA295A9 = {
-						LastSwiftMigration = 1000;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1872,39 +1861,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		067382F83FD87392468A7C9FA1C8EC55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B61CC727A8078FAFF26A6F618000C9 /* Nimble-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble-tvOS/Nimble-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble-tvOS/Nimble-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = Nimble;
-				PRODUCT_NAME = Nimble;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		080AB69A6C1FCAD1B740265529853241 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D46E3FFC149B885AF61872E8BF9A5D4A /* Pods-import_pods-ImageValet_Example.debug.xcconfig */;
@@ -1970,6 +1926,38 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1346B884450562C698EEBE2CF26BCE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B61CC727A8078FAFF26A6F618000C9 /* Nimble-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble-tvOS/Nimble-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble-tvOS/Nimble-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2099,6 +2087,38 @@
 			};
 			name = Release;
 		};
+		273833FC3B72DC90E616D824821E0EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5B097144583979F1ABB6BF7BDDB4AE /* ImageValet-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageValet-tvOS/ImageValet-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageValet-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageValet-tvOS/ImageValet-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = ImageValet;
+				PRODUCT_NAME = ImageValet;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		33C7DF4C5B195A90AAFDE643259219AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB029B9A7B42DA171FF7B793CEEA31B8 /* Alamofire-iOS.xcconfig */;
@@ -2126,39 +2146,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3789947B56F0581FFC4EBB75F6F02DF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BB63E384766CDFBD29F8B72470CB0B4 /* AlamofireImage-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlamofireImage-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = AlamofireImage;
-				PRODUCT_NAME = AlamofireImage;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2197,38 +2184,6 @@
 			};
 			name = Debug;
 		};
-		49BF8EA983BC8B16F0493A48F4757443 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F5B097144583979F1ABB6BF7BDDB4AE /* ImageValet-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageValet-tvOS/ImageValet-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageValet-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageValet-tvOS/ImageValet-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = ImageValet;
-				PRODUCT_NAME = ImageValet;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4A1FC7193E547FFDEC071C7D2620F8F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 655A749E68F5EAA3F3641959594A86DA /* Pods-import_pods-ImageValet_Tests.debug.xcconfig */;
@@ -2259,6 +2214,38 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F9CBDC70FD0637ACD2C486053C5BF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01F31C74D89E437FDD1F3589754B78C /* Alamofire-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2401,6 +2388,39 @@
 			};
 			name = Release;
 		};
+		75FAE9B76B96547A7010C66B84DB1F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B61CC727A8078FAFF26A6F618000C9 /* Nimble-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble-tvOS/Nimble-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble-tvOS/Nimble-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		781E6A1E2B57FBF3193648F04FCAA9B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E52B7E5337A2435B4C0209024F0718F /* AlamofireImage-iOS.xcconfig */;
@@ -2428,6 +2448,39 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E8FE99CEAC2D27DBE6E7CA65C88A70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB63E384766CDFBD29F8B72470CB0B4 /* AlamofireImage-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = AlamofireImage;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2467,39 +2520,7 @@
 			};
 			name = Release;
 		};
-		9CAB903A76DDFBBF65CAF956BB045D46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BB63E384766CDFBD29F8B72470CB0B4 /* AlamofireImage-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AlamofireImage-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = AlamofireImage;
-				PRODUCT_NAME = AlamofireImage;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9FCBA8CFCA9264144FAD8B5779DFD1FD /* Release */ = {
+		A2F74A99C4D8A1675A1B06986AA1B643 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C01F31C74D89E437FDD1F3589754B78C /* Alamofire-tvOS.xcconfig */;
 			buildSettings = {
@@ -2523,7 +2544,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -2532,9 +2553,9 @@
 			};
 			name = Release;
 		};
-		BCF4FDBD98B0821F68C293D33668A298 /* Debug */ = {
+		A408157A71C39BDE91E7A0640C94BF51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C01F31C74D89E437FDD1F3589754B78C /* Alamofire-tvOS.xcconfig */;
+			baseConfigurationReference = 1F5B097144583979F1ABB6BF7BDDB4AE /* ImageValet-tvOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2545,24 +2566,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire-tvOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageValet-tvOS/ImageValet-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageValet-tvOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
+				MODULEMAP_FILE = "Target Support Files/ImageValet-tvOS/ImageValet-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = ImageValet;
+				PRODUCT_NAME = ImageValet;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		CDA037958404AC7EFC908FB0ABC0C282 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2599,9 +2621,9 @@
 			};
 			name = Debug;
 		};
-		E2C7D1F74B4BC3E33F8F58714881D195 /* Release */ = {
+		D38A311AE68B11DECED0F97A28F74E76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F5B097144583979F1ABB6BF7BDDB4AE /* ImageValet-tvOS.xcconfig */;
+			baseConfigurationReference = 1BB63E384766CDFBD29F8B72470CB0B4 /* AlamofireImage-tvOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2612,51 +2634,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageValet-tvOS/ImageValet-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageValet-tvOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage-tvOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageValet-tvOS/ImageValet-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = ImageValet;
-				PRODUCT_NAME = ImageValet;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EA3F9407FA17BD96B85725021B01F27D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B61CC727A8078FAFF26A6F618000C9 /* Nimble-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble-tvOS/Nimble-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Nimble-tvOS/Nimble-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = Nimble;
-				PRODUCT_NAME = Nimble;
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage-tvOS/AlamofireImage-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = AlamofireImage;
+				PRODUCT_NAME = AlamofireImage;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2801,8 +2790,8 @@
 		10892F11660397FD4DAC73837CE3AC19 /* Build configuration list for PBXNativeTarget "Alamofire-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCF4FDBD98B0821F68C293D33668A298 /* Debug */,
-				9FCBA8CFCA9264144FAD8B5779DFD1FD /* Release */,
+				4F9CBDC70FD0637ACD2C486053C5BF4C /* Debug */,
+				A2F74A99C4D8A1675A1B06986AA1B643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2864,8 +2853,8 @@
 		A0D4D7828CE70E7520E32C63C8604589 /* Build configuration list for PBXNativeTarget "AlamofireImage-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CAB903A76DDFBBF65CAF956BB045D46 /* Debug */,
-				3789947B56F0581FFC4EBB75F6F02DF3 /* Release */,
+				D38A311AE68B11DECED0F97A28F74E76 /* Debug */,
+				8E8FE99CEAC2D27DBE6E7CA65C88A70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2882,8 +2871,8 @@
 		B21C5AA0FCCF19B6BA5C197DED12FFE5 /* Build configuration list for PBXNativeTarget "ImageValet-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49BF8EA983BC8B16F0493A48F4757443 /* Debug */,
-				E2C7D1F74B4BC3E33F8F58714881D195 /* Release */,
+				273833FC3B72DC90E616D824821E0EFF /* Debug */,
+				A408157A71C39BDE91E7A0640C94BF51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2891,8 +2880,8 @@
 		F19690B474A1931ACF986D5ACDD4BD52 /* Build configuration list for PBXNativeTarget "Nimble-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA3F9407FA17BD96B85725021B01F27D /* Debug */,
-				067382F83FD87392468A7C9FA1C8EC55 /* Release */,
+				1346B884450562C698EEBE2CF26BCE2A /* Debug */,
+				75FAE9B76B96547A7010C66B84DB1F5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

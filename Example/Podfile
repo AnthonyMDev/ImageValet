@@ -8,10 +8,11 @@ abstract_target 'import_pods' do
   pod 'AlamofireImage'
 
   target 'ImageValet_Example' do
-
+      platform :ios, '9.0'
   end
 
   target 'ImageValet_Tests' do
+      platform :ios, '9.0'
     pod 'Nimble'
   end
   

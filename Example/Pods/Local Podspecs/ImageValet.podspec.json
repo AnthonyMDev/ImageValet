@@ -2,6 +2,7 @@
   "name": "ImageValet",
   "version": "2.3.0",
   "summary": "Delivers an image from a local or remote source to a `UIImageView` or  closure, using `AlamofireImage` for asynchronous requests.",
+  "swift_version": "4.2",
   "homepage": "https://github.com/AnthonyMDev/ImageValet",
   "license": "MIT",
   "authors": {
